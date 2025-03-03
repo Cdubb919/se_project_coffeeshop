@@ -1,8 +1,10 @@
 .header {
     padding: 30px 80px 40px;
+    box-sizing: border-box;
     position: relative;
     height: 800px;
     display: flex;
+    z-index: 1;
     flex-direction: column;
     background: center / cover no-repeat #FFF url(../images/background_header.svg);
  }
@@ -31,7 +33,7 @@
  .header__description {
      margin: 28px 0 0;
      max-width: 683px;
-     font-family: "Inter", "Arial","sans-serif";
+     font-family: "Noto serif", "Times New Roman","serif";
      font-size: 20px;
      line-height: 30px;
  }
@@ -42,7 +44,7 @@
      right: 5px;
      width: 646px;
      height: 568px;
-     z-index: 1;
+     z-index: -1;
  }
  
  .header__footer {
